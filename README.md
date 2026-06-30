@@ -103,13 +103,13 @@ Funcionalidades implementadas:
 
 ```bash
 # Trabalho A — Playlist de Músicas
-gcc Trabalho_A/estrutura.c -o Trabalho_A/playlist
+gcc Trabalho_A/Trabalho_A/trabalho_a -o Trabalho_A/playlist
 
 # Trabalho B — Chamadas de Emergência
-gcc Trabalho_B/estruturas.c -o Trabalho_B/emergencia
+gcc Trabalho_B/Trabalho_B/trabalho_b -o Trabalho_B/emergencia
 
 # Trabalho C — Atendimento Bancário
-gcc Trabalho_C/estrutur.c -o Trabalho_C/banco
+gcc Trabalho_C/Trabalho_C/trabalho_c -o Trabalho_C/banco
 ```
 
 ---
