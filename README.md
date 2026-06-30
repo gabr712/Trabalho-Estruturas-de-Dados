@@ -81,7 +81,7 @@ Funcionalidades implementadas:
 
 ---
 
-### Trabalho C — Atendimento Bancário (`Trabalho_C/estrutur.c`)
+### Trabalho C — Atendimento Bancário (`Trabalho_C/trabalho.c`)
 
 Sistema de senhas para atendimento bancário com **duas filas simultâneas**: uma fila linear simples para senhas normais e uma **fila circular** para senhas preferenciais.
 
