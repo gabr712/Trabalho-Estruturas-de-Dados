@@ -48,7 +48,7 @@ Trabalho_Final_Estruturas_Dados/
 
 ## 📝 Descrição dos Programas
 
-### Trabalho A — Playlist de Músicas (`Trabalho_A/estrutura.c`)
+### Trabalho A — Playlist de Músicas (`Trabalho_A/trabalho.c`)
 
 Sistema de gerenciamento de playlist musical usando **lista simples com vetor de struct**.
 
@@ -65,7 +65,7 @@ Funcionalidades implementadas:
 
 ---
 
-### Trabalho B — Chamadas de Emergência (`Trabalho_B/estruturas.c`)
+### Trabalho B — Chamadas de Emergência (`Trabalho_B/trabalho.c`)
 
 Sistema de registro e atendimento de chamadas de emergência usando **pilha simples com vetor de struct**, seguindo a lógica LIFO.
 
