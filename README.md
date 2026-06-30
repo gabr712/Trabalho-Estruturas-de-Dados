@@ -28,6 +28,7 @@ Repositório do trabalho final da disciplina de **Estruturas de Dados**, curso d
 ---
 
 ## 📂 Estrutura do Repositório
+Trabalho_Final_Estruturas_Dados/
 ├── README.md
 ├── relatorio.md
 ├── Trabalho_A/
@@ -37,8 +38,8 @@ Repositório do trabalho final da disciplina de **Estruturas de Dados**, curso d
 │   ├── trabalho_b.c
 │   └── chamadas.csv
 └── Trabalho_C/
-├── trabalho_c.c
-└── senhas.csv
+    ├── trabalho_c.c
+    └── senhas.csv
 ---
 
 ## 📝 Descrição dos Programas
