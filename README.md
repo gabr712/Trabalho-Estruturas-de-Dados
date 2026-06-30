@@ -34,13 +34,13 @@ Trabalho_Final_Estruturas_Dados/
 ├── README.md
 ├── relatorio.md
 ├── Trabalho_A/
-│   ├── estrutura.c
+│   ├── trabalho_a.c
 │   └── playlist.csv
 ├── Trabalho_B/
-│   ├── estruturas.c
+│   ├── trabalho_b.c
 │   └── chamadas.csv
 └── Trabalho_C/
-    ├── estrutur.c
+    ├── trabalho_c.c
     └── senhas.csv
 ```
 
