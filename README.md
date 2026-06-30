@@ -48,7 +48,7 @@ Trabalho_Final_Estruturas_Dados/
 
 ## 📝 Descrição dos Programas
 
-### Trabalho A — Playlist de Músicas (`Trabalho_A/trabalho.c`)
+### Trabalho A — Playlist de Músicas (`Trabalho_A/trabalho_a.c`)
 
 Sistema de gerenciamento de playlist musical usando **lista simples com vetor de struct**.
 
@@ -65,7 +65,7 @@ Funcionalidades implementadas:
 
 ---
 
-### Trabalho B — Chamadas de Emergência (`Trabalho_B/trabalho.c`)
+### Trabalho B — Chamadas de Emergência (`Trabalho_B/trabalho_b.c`)
 
 Sistema de registro e atendimento de chamadas de emergência usando **pilha simples com vetor de struct**, seguindo a lógica LIFO.
 
@@ -81,7 +81,7 @@ Funcionalidades implementadas:
 
 ---
 
-### Trabalho C — Atendimento Bancário (`Trabalho_C/trabalho.c`)
+### Trabalho C — Atendimento Bancário (`Trabalho_C/trabalho_c.c`)
 
 Sistema de senhas para atendimento bancário com **duas filas simultâneas**: uma fila linear simples para senhas normais e uma **fila circular** para senhas preferenciais.
 
