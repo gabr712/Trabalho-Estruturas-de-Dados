@@ -32,11 +32,14 @@ Trabalho-Estruturas-de-Dados/
 ├── README.md
 ├── relatorio.md
 ├── Trabalho_A/
+
 │   ├── trabalho_a.c
 │   └── playlist.csv
+
 ├── Trabalho_B/
 │   ├── trabalho_b.c
 │   └── chamadas.csv
+
 └── Trabalho_C/
 ├── trabalho_c.c
 └── senhas.csv
