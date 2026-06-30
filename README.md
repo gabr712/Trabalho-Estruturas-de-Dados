@@ -7,7 +7,7 @@ Repositório do trabalho final da disciplina de **Estruturas de Dados**, curso d
 ## 👥 Integrantes
 
 | Nome Completo            | Curso                    |
-|--------------------------|--------------------------|
+| ------------------------ | ------------------------ |
 | David Silva Souza        | Engenharia da Computação |
 | Gabriel Ribeiro          | Engenharia da Computação |
 | Gabriel Silva dos Santos | Engenharia da Computação |
@@ -19,18 +19,16 @@ Repositório do trabalho final da disciplina de **Estruturas de Dados**, curso d
 
 ## 📚 Temas Escolhidos
 
-| Trabalho    | Tema                          | Estrutura de Dados       |
-|-------------|-------------------------------|--------------------------|
-| Trabalho A  | **A1 — Playlist de Músicas**  | Lista Simples (vetor)    |
-| Trabalho B  | **B2 — Chamadas de Emergência** | Pilha Simples (vetor)  |
-| Trabalho C  | **C1 — Atendimento Bancário** | Fila Simples + Fila Circular |
+| Trabalho   | Tema                            | Estrutura de Dados           |
+| ---------- | -------------------------------- | ----------------------------- |
+| Trabalho A | **A1 — Playlist de Músicas**     | Lista Simples (vetor)         |
+| Trabalho B | **B2 — Chamadas de Emergência**  | Pilha Simples (vetor)         |
+| Trabalho C | **C1 — Atendimento Bancário**    | Fila Simples + Fila Circular  |
 
 ---
 
 ## 📂 Estrutura do Repositório
-
-```
-Trabalho_Final_Estruturas_Dados/
+Trabalho-Estruturas-de-Dados/
 ├── README.md
 ├── relatorio.md
 ├── Trabalho_A/
@@ -40,10 +38,8 @@ Trabalho_Final_Estruturas_Dados/
 │   ├── trabalho_b.c
 │   └── chamadas.csv
 └── Trabalho_C/
-    ├── trabalho_c.c
-    └── senhas.csv
-```
-
+├── trabalho_c.c
+└── senhas.csv
 ---
 
 ## 📝 Descrição dos Programas
@@ -55,6 +51,7 @@ Sistema de gerenciamento de playlist musical usando **lista simples com vetor de
 Cada música armazena: ID, título, artista, duração (segundos) e gênero.
 
 Funcionalidades implementadas:
+
 - Inserir música com validação de ID único
 - Buscar música por ID
 - Editar campos de uma música (mantendo o ID)
@@ -72,6 +69,7 @@ Sistema de registro e atendimento de chamadas de emergência usando **pilha simp
 Cada chamada armazena: protocolo, local, tipo da ocorrência e horário.
 
 Funcionalidades implementadas:
+
 - Registrar chamada (push) com validação de protocolo único
 - Atender próxima chamada (pop) — última registrada é a primeira atendida
 - Consultar chamada no topo (peek) sem remover
@@ -88,6 +86,7 @@ Sistema de senhas para atendimento bancário com **duas filas simultâneas**: um
 Cada senha armazena: número, tipo (N/P) e horário de chegada (capturado automaticamente do sistema).
 
 Funcionalidades implementadas:
+
 - Gerar senha normal (fila simples) ou preferencial (fila circular)
 - Atendimento com regra de prioridade: 2 normais para cada 1 preferencial
 - Se uma fila estiver vazia, o atendimento continua pela outra
@@ -100,33 +99,21 @@ Funcionalidades implementadas:
 ## ⚙️ Como Compilar
 
 > Pré-requisito: GCC instalado. No Windows, use MinGW ou WSL.
-
-```bash
-# Trabalho A — Playlist de Músicas
-gcc Trabalho_A/Trabalho_A/trabalho_a -o Trabalho_A/playlist
-
-# Trabalho B — Chamadas de Emergência
-gcc Trabalho_B/Trabalho_B/trabalho_b -o Trabalho_B/emergencia
-
-# Trabalho C — Atendimento Bancário
-gcc Trabalho_C/Trabalho_C/trabalho_c -o Trabalho_C/banco
-```
-
+Trabalho A — Playlist de Músicas
+gcc Trabalho_A/trabalho_a.c -o Trabalho_A/trabalho_a
+Trabalho B — Chamadas de Emergência
+gcc Trabalho_B/trabalho_b.c -o Trabalho_B/trabalho_b
+Trabalho C — Atendimento Bancário
+gcc Trabalho_C/trabalho_c.c -o Trabalho_C/trabalho_c
 ---
 
 ## ▶️ Como Executar
-
-```bash
-# Trabalho A
-./Trabalho_A/playlist
-
-# Trabalho B
-./Trabalho_B/emergencia
-
-# Trabalho C
-./Trabalho_C/banco
-```
-
+Trabalho A
+./Trabalho_A/trabalho_a
+Trabalho B
+./Trabalho_B/trabalho_b
+Trabalho C
+./Trabalho_C/trabalho_c
 Os três programas podem ser avaliados de forma **completamente independente**.
 
 ---
@@ -145,4 +132,3 @@ Os três programas podem ser avaliados de forma **completamente independente**.
 - Implementação da fila circular com controle de `inicio`, `fim` e `quantidade` sem confundir os índices ao percorrer para listagem e salvamento em CSV.
 - Gerenciamento do buffer de entrada (`limpar_buffer()`) para evitar leituras erradas ao misturar `scanf` e `fgets` no mesmo programa.
 - Garantia de que o carregamento do CSV não insere duplicatas e respeita os limites de tamanho dos campos da struct.
-
